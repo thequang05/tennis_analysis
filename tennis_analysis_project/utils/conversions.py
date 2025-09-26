@@ -8,6 +8,6 @@ def convert_meters_to_pixel_distance(meters,reference_height_in_meters, referenc
     return meters*reference_height_in_pixels/reference_height_in_meters
 def calculate_speed_mps(distance_meters,time_seconds):
     return distance_meters/time_seconds
-def convert_mps_toKmh(speed_mps):
+def convert_mps_to_kmh(speed_mps):
     return speed_mps*3.6
 
